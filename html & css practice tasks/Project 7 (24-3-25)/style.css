@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  border: 1px solid black;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: #ccc;
+  transition: 0.3s ease-in;
+}
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+section article {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section article ul {
+  margin-left: 20px;
+}
+section article ul li {
+  margin-bottom: 10px;
+}
+
+section article p {
+  line-height: 1.6;
+}
+
+code {
+  background-color: #ccc;
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+    height: 200px;
+  }
+}

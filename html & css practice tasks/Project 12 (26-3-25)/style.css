@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+nav {
+  height: 50px;
+  background-color: rgb(163, 175, 175);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  text-transform: capitalize;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 100px;
+  background-color: rgb(127, 139, 139);
+  border-bottom: 2px solid rgb(163, 175, 175);
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 0;
+}
+
+hr {
+  color: rgb(48, 52, 52);
+  border: 2px solid rgb(48, 52, 52);
+  height: 400px;
+}
+
+.hi {
+  color: rgb(48, 52, 52);
+  font-size: 60px;
+}
+
+span {
+  font-size: 60px;
+}
+
+.info h3 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.info {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#projects {
+  background-color: rgb(105, 113, 113);
+  padding: 50px;
+  align-items: center;
+}
+
+#projects h2 {
+  font-size: 50px;
+  font-weight: 300;
+  /* border-bottom: 2px solid rgb(163, 175, 175); */
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  gap: 20px;
+}
+
+.container-2 {
+  background-color: rgb(127, 139, 139);
+  border-top: 2px solid rgb(163, 175, 175);
+  height: 300px;
+  padding: 50px;
+}
+.container-2 h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+  color: rgb(182, 198, 198);
+  text-decoration: underline;
+}
+.top-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
+  padding-bottom: 20px;
+  color: rgb(62, 66, 66);
+}
+
+.bottom-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  color: rgb(62, 66, 66);
+}
+
+.contact_way {
+  display: flex;
+  gap: 10px;
+  color: rgb(62, 66, 66);
+}
+
+footer {
+  background-color: rgb(105, 113, 113);
+  height: 50px;
+}
+
+.container3 {
+  text-align: center;
+  padding: 10px;
+  color: rgb(182, 198, 198);
+}
+
+.grid_item {
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  position: relative;
+}
+
+.card_content h3 {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.card_content {
+  border: 1px solid red;
+  position: absolute;
+  bottom: -61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  visibility: hidden;
+}
+
+.card:hover .card_content {
+  visibility: visible;
+  bottom: 0;
+}

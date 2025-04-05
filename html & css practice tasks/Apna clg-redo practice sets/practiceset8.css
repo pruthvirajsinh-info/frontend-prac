@@ -1,0 +1,17 @@
+div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 20px solid beige;
+  border-left: 20px solid black;
+  animation: spinaminate 2s ease-in-out 1s infinite;
+}
+
+@keyframes spinaminate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

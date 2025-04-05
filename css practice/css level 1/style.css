@@ -1,0 +1,96 @@
+/* .hello {
+  color: blue;
+}
+
+#headingone {
+  color: pink;
+}
+
+.hello {
+  color: orange;
+} */
+
+#box {
+  background-color: blue;
+}
+
+/* .heading {
+  color: red;
+} */
+
+/* p{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: orange dotted underline;
+
+}
+
+a {
+  text-decoration: none;
+} */
+
+/* #h1 {
+  font-weight: 100;
+}
+
+#h2 {
+  font-weight: 300;
+}
+
+#h3 {
+  font-weight: 500;
+}
+
+#h4 {
+  font-weight: 900;
+} */
+
+/* #one {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+#two {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ */
+
+/* #para1 {
+  font-size: 20px;
+ }
+
+ #para2 {
+  font-size: 60px;
+ }
+ 
+ #para3 {
+  font-size: 90px;
+ }
+
+ #paragraph {
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: lowercase;
+ }
+  */
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+#outer {
+  font-size: 25px;
+}
+
+#inner {
+  font-size: 10px;
+}

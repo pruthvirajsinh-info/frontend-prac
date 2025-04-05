@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(171, 185, 185, 0.739);
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: linear-gradient(60deg, pink, skyblue);
+}
+
+.main-container {
+  margin: auto 0;
+}
+
+.applybox {
+  max-width: 650px;
+  padding: 20px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+}
+
+.applybox h1 {
+  margin-bottom: 30px;
+}
+
+.form-container {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-control {
+  flex: 0 0 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  color: #ccc;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.gender-container {
+  margin: 5px;
+}
+
+.gender-container h2 {
+  font-size: 18px;
+  font-weight: 200;
+}
+.gender-option {
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  display: flex;
+  gap: 25px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding: 10px 10px;
+  text-transform: capitalize;
+  width: 100%;
+  background: linear-gradient(60deg, pink, skyblue);
+  border: 1px solid transparent;
+}

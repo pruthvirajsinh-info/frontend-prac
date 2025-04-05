@@ -1,0 +1,29 @@
+/* ul {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+} */
+
+.outer {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}

@@ -1,0 +1,21 @@
+let myName = 'mahima';
+console.log (myName);
+
+const PI = 3.14;
+console.log (PI);
+
+let age = 26;
+let price = 100.50;
+
+let fatherName = 'chandresh';
+
+let isApply = true;
+
+let x = null;
+
+const student = {
+  fullName : "kavya vala",
+  age : 16,
+  cgpa : 8.9,
+  isPass : true
+}
